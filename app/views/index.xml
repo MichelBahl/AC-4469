@@ -1,0 +1,20 @@
+<Alloy>
+	<Window class="container">
+		<View height="Ti.UI.SIZE" layout="vertical">
+			<View class="containerView buttonMargin">
+				<!-- This one works as expected on Android -->
+				<Button class="defaultButton"><Label platform="ios" class="defaultLabel"/></Button>
+			</View>
+			<View class="containerView buttonMargin">
+				<!-- This does not work on Android -->
+				<Button class="defaultButton">
+					<Label platform="ios" class="defaultLabel"/>
+				</Button>
+			</View>
+			<View class="containerView buttonMargin">
+				<!-- This does not work either on Android -->
+				<Button class="defaultButton"> <Label platform="ios" class="defaultLabel"/></Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

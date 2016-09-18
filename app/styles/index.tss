@@ -1,0 +1,36 @@
+".buttonMargin":{
+	top: 50
+}
+
+".defaultLabel[platform=ios]":{
+	left: 10,
+	right: 10,
+	text:	"Test Button",
+	color: "#ffff"	
+}
+
+
+".defaultButton[platform=android]":{
+	title:	"Test Button",
+	color:	"#ffffff"
+}
+
+
+".containerView":{
+	height: Ti.UI.SIZE
+}
+
+".defaultButton":{
+	text : "default",
+	width : Ti.UI.SIZE,
+	height : 40,
+	color : '#fff',
+	font : {
+		fontSize : 14
+	},
+	// Android and Mobile Web also support setting the background color for each of the states. These are not supported on iOS.
+	backgroundColor :  "blue",
+	backgroundSelectedColor : "#aaaa00",
+	backgroundDisabledColor : "gray",
+	borderRadius : 5
+}
